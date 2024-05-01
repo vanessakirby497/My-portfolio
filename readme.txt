@@ -2,13 +2,52 @@
 
 DESCRIPTION:
 
-LUTHER is a modern, stylish, free personal website template designed for creative individuals 
-and professionals. It is the perfect template if you wish to build an online presence and create 
-a strong first impression on all your site visitors. Luther will help you craft a personal 
-professional website wherein you can showcase your works, talents, and present yourself on the 
-web in the best possible light. On top of that, the template is versatile and easy to customize 
-so with some modifications and a bit of creativity you even use it as a portfolio site for 
-digital studios or a landing page for your projects.
+This is the personal portfolio website for Mary Kemunto, a Cloud Engineer specializing in cloud 
+infrastructure, Kubernetes, and cloud-native solutions. The website showcases her expertise in 
+cloud technologies, professional experience, and skills.
+
+The portfolio features:
+- Modern card-based layout design
+- Responsive design for all devices
+- Sections for About, Skills, Experience, and Contact
+- Cloud-themed color scheme (blues and cyans)
+- Integration with GitHub profile
+
+About Mary Kemunto:
+------------------
+Mary Kemunto is an experienced Cloud Engineer with deep expertise in designing, deploying, and 
+managing cloud infrastructure at scale. She specializes in Kubernetes orchestration, containerization, 
+cloud architecture, and infrastructure automation. Passionate about building resilient, scalable 
+cloud-native solutions using best practices in DevOps, CI/CD, and Infrastructure as Code.
+
+Her philosophy: "Make it work, make it right, make it fast."
+
+GitHub: https://github.com/MaryKemunto
+
+==================================================================================================
+
+
+TECHNICAL DETAILS:
+
+Template Base: Luther (modified)
+- Original template by styleshout.com
+- Heavily customized for Cloud Engineer portfolio
+
+Technologies Used:
+- HTML5
+- CSS3 (Custom Properties/Variables)
+- JavaScript (Vanilla JS)
+- Anime.js for animations
+- Swiper for sliders
+- Responsive Grid System
+
+Features:
+- Modern card-based UI
+- Smooth scrolling navigation
+- Animated sections on scroll
+- Mobile-responsive design
+- Glassmorphism effects
+- Hover animations
 
 ==================================================================================================
 
@@ -127,6 +166,11 @@ Javascript Files:
 -------------------------------------------------------------------------------------------------------
 
 
-Thanks for downloading from Styleshout :)
+CONTACT:
 
+For inquiries about this portfolio or cloud engineering services, please visit:
+GitHub: https://github.com/MaryKemunto
+
+
+Thanks for visiting!
 

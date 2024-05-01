@@ -5,9 +5,9 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Sabina Kalunde - Software Developer</title>
-    <meta name="description" content="Sabina Kalunde - Cloud-focused Software Developer specializing in cloud technologies and modern development practices">
-    <meta name="author" content="Sabina Kalunde">
+    <title>Vanessa Kirby - Platforms Engineer</title>
+    <meta name="description" content="Vanessa Kirby - Platforms Engineer specializing in Kubernetes platforms, ArgoCD, cloud infrastructure, and platform engineering">
+    <meta name="author" content="Vanessa Kirby">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -18,12 +18,9 @@
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- favicons
+    <!-- Prevent default favicon
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" href="data:,">
 
 </head>
 
@@ -42,31 +39,24 @@
     ================================================== -->
     <div class="s-pagewrap">
 
-        <div class="circles">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-
         <!-- ## site header 
         ================================================== -->
         <header class="s-header">
 
             <div class="header-mobile">
-                <span class="mobile-home-link"><a href="index.html">Sabina K.</a></span>
+                <span class="mobile-home-link"><a href="index.html">Vanessa K.</a></span>
                 <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
             </div>
 
             <div class="row wide main-nav-wrap">
                 <nav class="column lg-12 main-nav">
                     <ul>
-                        <li><a href="index.html" class="home-link">Sabina K.</a></li>
-                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="index.html" class="home-link">Vanessa K.</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Home</a></li>
                         <li><a href="#about" class="smoothscroll">About</a></li>
-                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+                        <li><a href="#skills" class="smoothscroll">Skills</a></li>
+                        <li><a href="#experience" class="smoothscroll">Experience</a></li>
+                        <li><a href="#contact" class="smoothscroll">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -84,26 +74,26 @@
             <section id="intro" class="s-intro target-section">
 
                 <div class="row intro-content wide">
-
-                    <div class="column">
-                        <div class="text-pretitle with-line">
-                            Hello World
+                    <div class="column lg-8 md-10 tab-12">
+                        <div class="intro-card">
+                            <div class="intro-badge">Platforms Engineer</div>
+                            <h1 class="intro-title">
+                                Vanessa Kirby
+                            </h1>
+                            <p class="intro-subtitle">
+                                Building cloud platforms & enabling developer productivity
+                            </p>
+                            <p class="intro-description">
+                                Experienced Platforms Engineer specializing in Kubernetes platform engineering, ArgoCD, 
+                                cloud infrastructure platforms, and developer tooling. Passionate about building robust 
+                                platforms that enable teams to ship faster. Clean code always looks like it was written by someone who cares.
+                            </p>
+                            <div class="intro-actions">
+                                <a href="https://github.com/vanessakirby497" target="_blank" rel="noopener noreferrer" class="btn btn--primary">View GitHub</a>
+                                <a href="#about" class="btn btn--stroke smoothscroll">Learn More</a>
+                            </div>
                         </div>
-
-                        <h1 class="text-huge-title">
-                            I am Sabina Kalunde, <br>
-                            a Software Developer <br>
-                            specializing in <br> 
-                            cloud technologies <br>
-                            & modern solutions.
-                        </h1>
                     </div>
-
-                    <ul class="intro-social">
-                        <li><a href="https://github.com/Sabinakalush" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                        <li><a href="mailto:sabinakalunde88@gmail.com">Email</a></li>
-                    </ul>
-
                 </div> <!-- end intro content -->
 
                 <a href="#about" class="intro-scrolldown smoothscroll">
@@ -117,171 +107,186 @@
             ================================================== -->
             <section id="about" class="s-about target-section">
 
-
-                <div class="row about-info wide" data-animate-block>
-
-                    <div class="column lg-6 md-12 about-info__pic-block">
-                        <img src="images/sample-image.jpg" 
-                             srcset="images/sample-image.jpg 1x, images/sample-image.jpg 2x" alt="" class="about-info__pic" data-animate-el>
+                <div class="row section-header">
+                    <div class="column lg-12">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="section-subtitle">Platform Engineering Expert</p>
                     </div>
+                </div>
 
-                    <div class="column lg-6 md-12">
-                        <div class="about-info__text" >
-
-                            <h2 class="text-pretitle with-line" data-animate-el>
-                                About
-                            </h2>
-                            <p class="attention-getter" data-animate-el>
-                                Passionate Software Developer with expertise in cloud computing, containerization, 
-                                and modern software development practices. I specialize in building scalable, 
-                                efficient solutions using cloud-native technologies. Experienced in working with 
-                                Kubernetes, container orchestration, and cloud platforms to deliver robust applications 
-                                that meet modern business needs.
-                            </p>
-                            <a href="mailto:sabinakalunde88@gmail.com" class="btn btn--medium u-fullwidth mailtoui" data-animate-el>Get In Touch</a>
-
+                <div class="row about-content" data-animate-block>
+                    <div class="column lg-4 md-6 tab-12">
+                        <div class="about-card" data-animate-el>
+                            <div class="about-card-icon">🏗️</div>
+                            <h3>Platform Engineering</h3>
+                            <p>Building and maintaining internal developer platforms, Kubernetes-based platforms, and infrastructure that enables teams to deploy and scale applications efficiently.</p>
                         </div>
                     </div>
-                </div> <!-- about-info -->
 
-
-                <div class="row about-expertise" data-animate-block>
-                    <div class="column lg-12">
-
-                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
-
-                        <ul class="skills-list h1" data-animate-el>
-                            <li>Cloud Computing</li>
-                            <li>Kubernetes</li>
-                            <li>Containerization</li>
-                            <li>DevOps</li>
-                            <li>CI/CD</li>
-                            <li>Microservices</li>
-                            <li>Cloud Architecture</li>
-                            <li>Infrastructure as Code</li>
-                        </ul>
-
+                    <div class="column lg-4 md-6 tab-12">
+                        <div class="about-card" data-animate-el>
+                            <div class="about-card-icon">☁️</div>
+                            <h3>Kubernetes Platforms</h3>
+                            <p>Expert in Kubernetes platform engineering, ArgoCD for GitOps deployments, external DNS management, and k0s for zero-friction Kubernetes clusters.</p>
+                        </div>
                     </div>
-                </div> <!-- end about-expertise -->
 
-
-                <div class="row about-timelines" data-animate-block>
-
-                    <div class="column lg-6 tab-12">
-
-                        <h2 class="text-pretitle" data-animate-el>
-                            Experience
-                        </h2>
-
-                        <div class="timeline" data-animate-el>
-
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">Software Developer</h4>
-                                    <h5 class="timeline__meta">Cloud & DevOps Specialist</h5>
-                                    <p class="timeline__timeframe">2022 - Present</p>
+                    <div class="column lg-4 md-6 tab-12">
+                        <div class="about-card" data-animate-el>
+                            <div class="about-card-icon">🔧</div>
+                            <h3>Developer Tooling</h3>
+                            <p>Creating developer-friendly platforms, test infrastructure, and tooling that abstracts complexity and enables teams to focus on building great products.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row about-text" data-animate-block>
+                    <div class="column lg-10 lg-offset-1">
+                        <div class="about-text-card" data-animate-el>
+                            <p class="attention-getter">
+                                Experienced Platforms Engineer with deep expertise in building and maintaining cloud platforms, 
+                                Kubernetes infrastructure, and developer tooling. I specialize in platform engineering, ArgoCD 
+                                for GitOps workflows, Kubernetes test infrastructure, external DNS management, and k0s platform 
+                                deployment. Passionate about creating robust platforms that enable development teams to ship faster 
+                                and more reliably. Committed to clean code, well-architected systems, and platforms that scale.
+                            </p>
                                 </div>
-                                <div class="timeline__desc">
-                                    <p>Developing and deploying cloud-native applications using Kubernetes and containerization technologies. Implementing CI/CD pipelines, managing cloud infrastructure, and building scalable microservices architectures. Contributing to open-source projects and maintaining cloud-based solutions.</p>
                                 </div>
                             </div>
-    
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">Software Development</h4>
-                                    <h5 class="timeline__meta">Full Stack Developer</h5>
-                                    <p class="timeline__timeframe">2020 - 2022</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>Built and maintained web applications with focus on cloud deployment and modern development practices. Worked with containerization, automated testing, and cloud platform integration to deliver reliable software solutions.</p>
-                                </div>
-                            </div>
-    
-                        </div> <!-- end timeline -->
-
-                    </div> <!-- end column -->
-
-                    <div class="column lg-6 tab-12">
-
-                        <h2 class="text-pretitle" data-animate-el>
-                            Education
-                        </h2>
-
-                        <div class="timeline" data-animate-el>
-
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">Cloud & DevOps Certifications</h4>
-                                    <h5 class="timeline__meta">Kubernetes, Cloud Platforms</h5>
-                                    <p class="timeline__timeframe">Ongoing</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>Continuously learning and certifying in cloud technologies, Kubernetes orchestration, and DevOps practices. Staying current with industry best practices and emerging cloud-native tools and platforms.</p>
-                                </div>
-                            </div>
-    
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">Computer Science / Software Engineering</h4>
-                                    <h5 class="timeline__meta">B.S. / B.Eng. Degree</h5>
-                                    <p class="timeline__timeframe">Completed</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>Strong foundation in computer science principles, software engineering methodologies, and system design. Focused studies on distributed systems, cloud computing, and modern software architecture patterns.</p>
-                                </div>
-                            </div>
-    
-                        </div> <!-- end timeline -->
-                        
-                    </div> <!-- end column -->
-
-
-                </div> <!-- end about-timelines -->
 
             </section> <!-- end s-about -->
 
 
+            <!-- ### skills
+            ================================================== -->
+            <section id="skills" class="s-skills target-section">
+
+                <div class="row section-header">
+                    <div class="column lg-12">
+                        <h2 class="section-title">Expertise & Skills</h2>
+                        <p class="section-subtitle">Platform Engineering & Cloud Technologies</p>
+                    </div>
+                </div>
+
+                <div class="row skills-content" data-animate-block>
+                    <div class="column lg-12">
+                        <div class="skills-grid" data-animate-el>
+                            <div class="skill-item">Kubernetes</div>
+                            <div class="skill-item">ArgoCD</div>
+                            <div class="skill-item">Platform Engineering</div>
+                            <div class="skill-item">k0s</div>
+                            <div class="skill-item">External DNS</div>
+                            <div class="skill-item">GitOps</div>
+                            <div class="skill-item">Cloud Platforms</div>
+                            <div class="skill-item">Test Infrastructure</div>
+                            <div class="skill-item">Developer Tooling</div>
+                            <div class="skill-item">Infrastructure as Code</div>
+                            <div class="skill-item">Container Orchestration</div>
+                            <div class="skill-item">Cloud Infrastructure</div>
+                        </div>
+                    </div>
+                </div>
+                                    
+            </section> <!-- end s-skills -->
+
+
+            <!-- ### experience
+            ================================================== -->
+            <section id="experience" class="s-experience target-section">
+
+                <div class="row section-header">
+                    <div class="column lg-12">
+                        <h2 class="section-title">Experience & Education</h2>
+                        <p class="section-subtitle">Professional Journey</p>
+                                        </div>
+                                    </div>
+
+                <div class="row experience-content" data-animate-block>
+
+                    <div class="column lg-6 tab-12">
+                        <h3 class="subsection-title" data-animate-el>Experience</h3>
+
+                        <div class="experience-timeline" data-animate-el>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-date">2022 - Present</div>
+                                    <h4>Platforms Engineer</h4>
+                                    <h5>Kubernetes Platforms & Developer Tooling</h5>
+                                    <p>Building and maintaining internal developer platforms based on Kubernetes. Implementing ArgoCD for GitOps workflows, managing external DNS configurations, and deploying k0s clusters. Contributing to Kubernetes test infrastructure and creating developer-friendly tooling that enables teams to deploy and scale applications efficiently.</p>
+                                </div>
+                            </div>
+                
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-date">2020 - 2022</div>
+                                    <h4>Platform Infrastructure Engineer</h4>
+                                    <h5>Cloud Platforms & Infrastructure</h5>
+                                    <p>Built and maintained cloud platforms, Kubernetes infrastructure, and developer tooling. Implemented GitOps workflows, managed platform services, and created abstractions that simplified complex infrastructure for development teams. Focused on platform reliability, scalability, and developer experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                
+                    <div class="column lg-6 tab-12">
+                        <h3 class="subsection-title" data-animate-el>Education</h3>
+
+                        <div class="experience-timeline" data-animate-el>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-date">Ongoing</div>
+                                    <h4>Platform Engineering & Cloud Certifications</h4>
+                                    <h5>Kubernetes, ArgoCD, Cloud Platforms</h5>
+                                    <p>Pursuing certifications in Kubernetes platform engineering, GitOps methodologies, and cloud platform technologies. Continuously learning platform engineering best practices, developer experience optimization, and modern platform tooling including ArgoCD, k0s, and external DNS management.</p>
+                                </div>
+                            </div>
+                
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-date">Completed</div>
+                                    <h4>Computer Science / Platform Engineering</h4>
+                                    <h5>B.S. / B.Eng. Degree</h5>
+                                    <p>Strong foundation in computer science with specialized focus on platform engineering, distributed systems, and cloud infrastructure. Expertise in Kubernetes platforms, developer tooling, GitOps workflows, and building scalable internal platforms.</p>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                
+                </div> <!-- end experience-content -->
+
+            </section> <!-- end s-experience -->
 
 
             <!-- ### contact
             ================================================== -->
             <section id="contact" class="s-contact target-section">
 
-                <div class="row contact-top">
+                <div class="row section-header">
                     <div class="column lg-12">
-                        <h2 class="text-pretitle">
-                            Get In Touch
-                        </h2>
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="section-subtitle">Let's Connect</p>
+                    </div>
+                </div>
 
-                        <p class="h1">
-                            I'd love to connect with you.
-                            Whether you have a project, collaboration opportunity, 
-                            or just want to discuss cloud technologies and software development — let's talk.
-                        </p>
+                <div class="row contact-content" data-animate-block>
+                    <div class="column lg-8 lg-offset-2">
+                        <div class="contact-card" data-animate-el>
+                            <p class="contact-message">
+                                I'd love to connect with you. Whether you have a platform engineering project, Kubernetes platform challenge, 
+                                or want to discuss ArgoCD, GitOps, platform infrastructure, or developer tooling — let's talk.
+                            </p>
+                            <div class="contact-actions">
+                                <a href="https://github.com/vanessakirby497" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--large">View GitHub Profile</a>
+                            </div>
+                            <div class="contact-links">
+                                <a href="https://github.com/vanessakirby497" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+                            </div>
                     </div>
-                </div> <!-- end contact-top -->
-
-                <div class="row contact-bottom">
-                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
-                        <h3 class="text-pretitle">Reach me at</h3>
-                        <p class="contact-links">
-                            <a href="mailto:sabinakalunde88@gmail.com" class="mailtoui">sabinakalunde88@gmail.com</a>
-                        </p>
                     </div>
-                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
-                        <h3 class="text-pretitle">Social</h3>
-                        <ul class="contact-social">
-                            <li><a href="https://github.com/Sabinakalush" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                        </ul>
                     </div>
-                    <div class="column lg-4 md-12 contact-block">
-                        <a href="mailto:sabinakalunde88@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
-                    </div>
-                </div> <!-- end contact-bottom -->
 
             </section> <!-- end contact -->
 
@@ -294,8 +299,8 @@
 
             <div class="row">
                 <div class="column ss-copyright">
-                    <span>© Copyright Sabina Kalunde 2025</span> 
-                    <span>Software Developer specializing in Cloud Technologies</span>
+                    <span>© Copyright Vanessa Kirby 2025</span> 
+                    <span>Platforms Engineer | Clean code always looks like it was written by someone who cares.</span>
                 </div>
 
                 <div class="ss-go-top">
